@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67c5b0a0-c0e1-48c1-b796-e4a0c408be90">
+  <name>ВКМ_РасчетУправленческойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет управленческой зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
+  <content>Role.ВКМ_ПодсистемаРасчетУправленческойЗарплаты</content>
+  <content>Role.ВКМ_ДобавлениеИзмененияДокументовНачисления</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДанныхСотрудников</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеГрафиковРаботы</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>CommandGroup.ВКМ_ГрафикиРаботы</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
+  <content>CommonCommand.ВКМ_ЗаполнитьГрафикиРаботы</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Constant.ВКМ_НДФЛ</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Role.ВКМ_РаботаСОтчетомРасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Role.ВКМ_РаботаСОтчетомРасходЗапланированныхОтпусков</content>
+  <content>CommonCommand.ВКМ_РасчетУправленческойЗарплатыПанельОтчетов</content>
+  <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
+  <content>AccumulationRegister.ВКМ_ГрафикОтпусков</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+</mdclass:Subsystem>

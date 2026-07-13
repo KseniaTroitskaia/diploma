@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b467c78a-a28d-4f07-95fb-49f470cfe795">
+  <name>ВКМ_ЗаполнитьГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить графики работы</value>
+  </synonym>
+  <group>CommandGroup.ВКМ_ГрафикиРаботы</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
